@@ -89,12 +89,11 @@ def temp_monthly():
 def stats(start=None, end=None):
     sel = [func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)]
 
-    #this query calculates the start and end date
+    #IF NO END DATE GIVEN THEN THIS IF STATEMENT RUNS
     if not end:
         #asterisk means there's multiple results to the query
         results = session.query(*sel).\
-            filter(Measurement.date >= start).\
-            filter(Measurement.date <= end).all()
+            filter(Measurement.date >= start).all()
         temps = list(np.ravel(results))
         return jsonify(temps=temps)
 
