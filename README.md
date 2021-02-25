@@ -17,10 +17,13 @@ The client is looking for a weather analyisis to determine if the new Surf and S
 ## Results
 
 June Summary
-![](Resources/June_Summary.png)
+
+![](resources/June_Summary.png)
 
 December Summary
-![](Resources/December_Summary.png)
+
+![](resources/December_Summary.png)
+
 - Given the start of summer and winter in Oahu, Hawaii; the average temperature difference between two opposite months are not drastically different with the summer averaging at about 74 degrees while winter at 71 degrees Farenheit. With this information, the demand for the business should not taper off drastically in the 'off season'.
 -  The median for December's temperature is 71 degrees while the Summer's median is 75 degrees farenheit, it can be safely assumed that although the difference isnt drastic like stated in the first argument, there will be more slower days during the winter especially if half of the time the temperatures fall below 71 degrees. 
 -  Strictly loooking at one of the 'worst' weathers in terms of temperature that is analyzed, it can also be safely assumed that 25% of the time during the month of December it will be a slower day considering the temperatures fall below 69 degrees farenheit. Different sets of data including precipitation has to be analyzed in order to solidify this statement. Nonetheless it is a good starting point for an assumption. 
